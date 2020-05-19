@@ -235,6 +235,11 @@ body {
     margin-bottom: .75%;
  }
 
+ .project-preview a
+ {
+   text-decoration: none;
+ }
+
  .preview-image
  {
      width: 100%;
@@ -248,13 +253,14 @@ body {
     font-style: normal;
     font-size: 1.7vw;
     margin: 0px;
+    color: black;
  }
 
  .preview-description
  {
     font-family: HKGrotesk-Regular;
     color: #ABABAD;
-    font-size: .9vw;
+    font-size: 1vw;
     margin-top: 3px;
     margin-bottom: 3px;
     margin-right: 3px;
@@ -264,27 +270,28 @@ body {
 
  .footer
  {
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    font-family: letter-gothic-std, monospace;
-    font-weight: 700;
-    font-style: normal;
-    margin-left: 10%;
-    margin-right: 10%;
-    align-items: center;
-    font-size: 12px;
+   height: 50px;
+   display: flex;
+   flex-direction: row;
+   align-content: space-between;
+   font-family: letter-gothic-std, monospace;
+   font-weight: 700;
+   font-style: normal;
+   margin-left: 10%;
+   margin-right: 10%;
+   align-items: center;
+   font-size: 12px;
  }
-
+ 
  .footer-name
  {
-    margin-left: 1%;
+   margin-left: 1%;
  }
-
+ 
  .footer-links
  {
-     margin-left: auto;
-     word-spacing: 10px;
-
+   margin-left: auto;
+   word-spacing: 10px;
+   color: white;
+   text-decoration: none;
  }
