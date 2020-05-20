@@ -312,19 +312,6 @@ body {
   font-size: 12px;
 }
 
-.footer-name
-{
-  margin-left: 1%;
-}
-
-.footer-links
-{
-  margin-left: auto;
-  word-spacing: 10px;
-  color: white;
-  text-decoration: none;
-}
-
 #interview-main
 {
   background-color: #E6E6E6;
@@ -381,4 +368,71 @@ body {
   margin-top: 1.4%;
   margin-bottom: 1.4%;
   border: 1px #797979 solid;
+}
+
+.main-photo #scooper-main-photo
+{
+  width: auto;
+  background-color: none;
+}
+
+.large-photo #scooper-main
+{
+  background-color: none;
+  margin-bottom: 0px;
+}
+
+.scooper-images
+{
+  width: 40%;
+  margin: 4%;
+  margin-top: 0px !important;
+}
+
+.footer-name
+{
+  margin-left: 1%;
+}
+
+.footer-links
+{
+  margin-left: auto;
+  word-spacing: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.section-name-second
+{
+  font-family: HKGrotesk-SemiBold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.section-description-second
+{
+  font-family: HKGrotesk-Regular;
+  font-size: 14px;
+  margin-top: 15px;
+  color: #ABABAD;
+  line-height: 20px;
+  width: 40%;
+}
+
+.spoon-rendering
+{
+  width: 29%;
+  margin-left: 1%;
+}
+
+.spoon-rendering-middle
+{
+  width: 29%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.spoon-rendering-wiring
+{
+  width: 35%;
 }
