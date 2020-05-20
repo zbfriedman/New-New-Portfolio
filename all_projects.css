@@ -255,16 +255,47 @@ body {
   width: 100%;
 }
 
+#WUNS
+{
+  background-color: #ABABAD;
+  text-align: center;
+  align-items: center;  
+}
 
+#WUNS .main-photo
+{
+  width: 96%;
+  padding-top: 2%;
+}
 
+.description
+{
+  width: 40%;
+}
 
+#school-closed, #application
+{
+  width: 22%;
+  margin-left: 8%;
+}
 
+.percentage
+{
+  font-family: freight-text-pro, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3vw;
+  text-align: center;
+  color: #FFA19B;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  -webkit-text-stroke: 1px black;
+}
 
-
-
-
-
-
+.task
+{
+  color: black;
+}
 
 .footer
 {
@@ -292,4 +323,62 @@ body {
   word-spacing: 10px;
   color: white;
   text-decoration: none;
+}
+
+#interview-main
+{
+  background-color: #E6E6E6;
+  text-align: center;
+}
+
+#interview-main-photo
+{
+  padding: 1%;
+  width: 40%;
+}
+
+.content-column
+{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.content-column .right-description
+{
+  margin-left:5%;
+  width: 55%;
+  text-align: right;
+}
+
+.content-column .left-description
+{
+  width: 40%;
+}
+
+.below-description
+{
+  margin-top: 2%;
+}
+
+.interview-wireframe-middle
+{
+  width: 31%;
+  margin-left: 2.8%;
+  margin-right: 2.8%;
+  margin-top: 1.4%;
+  margin-bottom: 1.4%;
+
+  border: 1px #797979 solid;
+}
+
+.interview-wireframe-side
+{
+  width: 31%;
+  margin-top: 1.4%;
+  margin-bottom: 1.4%;
+  border: 1px #797979 solid;
 }
