@@ -157,14 +157,14 @@ body {
 .first-text
 {
     font-family: HKGrotesk-Regular;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
 }
 
 .second-text
 {
     font-family: HKGrotesk-Light;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
 }
 
@@ -287,8 +287,18 @@ body {
     border: 1px #ABABAD solid;
 }
 
+.experience-place
+{
+    font-family: HKGrotesk-Regular;
+}
 
-
+.experience-text
+{
+    margin-left: 10%;
+    font-family: HKGrotesk-Light;
+    font-size: 16px;
+    color: black;
+}
 
 
 
