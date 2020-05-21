@@ -300,8 +300,21 @@ body {
     color: black;
 }
 
+.name-info
+{
+    display: flex;
+    flex-direction: row;
+}
 
-
+.personal-info
+{
+    color: black;
+    font-family: HKGrotesk-Light;
+    margin-left: 15%;
+    width: 40%;
+    text-align: right;
+    align-content: space-between;
+}
 
 
 
