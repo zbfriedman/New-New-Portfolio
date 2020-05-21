@@ -314,6 +314,9 @@ body {
     width: 40%;
     text-align: right;
     align-content: space-between;
+    font-size: 1vw;
+    padding-top: .3vw;
+    padding-bottom: .2vw;
 }
 
 
