@@ -77,6 +77,7 @@ body {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  text-align: right;
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
@@ -175,12 +176,15 @@ body {
   font-size: 18px;
   letter-spacing: .08vw;
   margin-bottom: 10px;
+  text-align: right;
 }
 
 .project-year, .project-platform
 {
   font-family: HKGrotesk-Regular;
   color: #ABABAD;
+  text-align: right;
+
 }
 
 .project-platform-label
@@ -435,4 +439,10 @@ body {
 .spoon-rendering-wiring
 {
   width: 35%;
+}
+
+.spoon-rendering-wired
+{
+  width: 50%;
+  margin-left: 10%;
 }
