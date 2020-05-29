@@ -9,6 +9,21 @@
     <!-- parts of menu bar code sourced from https://www.w3schools.com/howto/howto_css_subnav.asp -->
 </head>
 <body style="color:white">
+    <div class="scrollprogressContainer">
+        <div class="scrollprogressBar"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+    $(window).load(function(){
+    $(window).scroll(function() {
+        var wintop = $(window).scrollTop(), docheight = $('body').height(), winheight = $(window).height();
+        console.log(wintop);
+        var totalScroll = (wintop/(docheight-winheight))*100;
+        console.log("total scroll" + totalScroll);
+        $(".scrollprogressBar").css("width",totalScroll+"%");
+    });
+    });
+    </script>
     <div class="menu-bar">
         <div class="logo" id="zf"><a href="index.html"><img src="images/logo.png" onmouseover="this.src='images/logo-white.png'" onmouseout="this.src='images/logo.png'" height=50></a></div>
         <div class="menu-bar-item-container">
