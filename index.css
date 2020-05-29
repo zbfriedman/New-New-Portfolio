@@ -183,8 +183,8 @@ body {
 
 .headshot
 {
-    margin-left: 8%;
     width: 420px;
+    margin-left: 5%;
 }
 
 .arrow
@@ -324,3 +324,5 @@ body {
    color: white;
    text-decoration: none;
  }
+
+ 
